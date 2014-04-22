@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9B220C41905F40A004D797E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B220C31905F40A004D797E /* XCTest.framework */; };
+		F9B220CF1905F40A004D797E /* KKAssertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B220CE1905F40A004D797E /* KKAssertTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9B220A91905F40A004D797E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9B220C21905F40A004D797E /* KKAssertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKAssertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B220C31905F40A004D797E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F9B220CE1905F40A004D797E /* KKAssertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKAssertTests.m; sourceTree = "<group>"; };
+		F9B220D81905F508004D797E /* KKAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAssert.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9B220BF1905F40A004D797E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B220C41905F40A004D797E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9B220981905F40A004D797E = {
+			isa = PBXGroup;
+			children = (
+				F9B220AA1905F40A004D797E /* KKAssert */,
+				F9B220C81905F40A004D797E /* KKAssertTests */,
+				F9B220A31905F40A004D797E /* Frameworks */,
+				F9B220A21905F40A004D797E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9B220A21905F40A004D797E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9B220C21905F40A004D797E /* KKAssertTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9B220A31905F40A004D797E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9B220A91905F40A004D797E /* Foundation.framework */,
+				F9B220C31905F40A004D797E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9B220AA1905F40A004D797E /* KKAssert */ = {
+			isa = PBXGroup;
+			children = (
+				F9B220D81905F508004D797E /* KKAssert.h */,
+			);
+			path = KKAssert;
+			sourceTree = "<group>";
+		};
+		F9B220C81905F40A004D797E /* KKAssertTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9B220CE1905F40A004D797E /* KKAssertTests.m */,
+			);
+			path = KKAssertTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9B220C11905F40A004D797E /* KKAssertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B220D51905F40A004D797E /* Build configuration list for PBXNativeTarget "KKAssertTests" */;
+			buildPhases = (
+				F9B220BE1905F40A004D797E /* Sources */,
+				F9B220BF1905F40A004D797E /* Frameworks */,
+				F9B220C01905F40A004D797E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKAssertTests;
+			productName = KKAssertTests;
+			productReference = F9B220C21905F40A004D797E /* KKAssertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9B220991905F40A004D797E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Karol Kozub";
+				TargetAttributes = {
+					F9B220C11905F40A004D797E = {
+						TestTargetID = F9B220A01905F40A004D797E;
+					};
+				};
+			};
+			buildConfigurationList = F9B2209C1905F40A004D797E /* Build configuration list for PBXProject "KKAssert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9B220981905F40A004D797E;
+			productRefGroup = F9B220A21905F40A004D797E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9B220C11905F40A004D797E /* KKAssertTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9B220C01905F40A004D797E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9B220BE1905F40A004D797E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B220CF1905F40A004D797E /* KKAssertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F9B220D01905F40A004D797E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F9B220D11905F40A004D797E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F9B220D61905F40A004D797E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_PEDANTIC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F9B220D71905F40A004D797E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_PEDANTIC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9B2209C1905F40A004D797E /* Build configuration list for PBXProject "KKAssert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B220D01905F40A004D797E /* Debug */,
+				F9B220D11905F40A004D797E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B220D51905F40A004D797E /* Build configuration list for PBXNativeTarget "KKAssertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B220D61905F40A004D797E /* Debug */,
+				F9B220D71905F40A004D797E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9B220991905F40A004D797E /* Project object */;
+}
