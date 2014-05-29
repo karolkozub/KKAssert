@@ -49,7 +49,7 @@ void test(int argument) {
 @end
 ```
 
-How does the failure message look like?
+What does the failure message look like?
 ---------------------------------------
 
 ```
